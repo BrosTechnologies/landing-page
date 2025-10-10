@@ -50,9 +50,16 @@ export default function Navbar({ language, setLanguage }) {
             </a>
           </nav>
           <div className="flex items-center gap-2">
-            <button className="flex h-10 min-w-[84px] items-center justify-center overflow-hidden rounded-lg bg-primary px-4 text-sm font-bold text-white transition-opacity hover:opacity-90">
-              <span className="truncate">Get Started</span>
-            </button>
+           <a 
+  href="https://www.mediafire.com/file/yehwktydmjpk7ll/EngiTrack-v1.1-Final.apk/file" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  <button className="flex h-10 min-w-[84px] items-center justify-center overflow-hidden rounded-lg bg-primary px-4 text-sm font-bold text-white transition-opacity hover:opacity-90">
+    <span className="truncate">Get Started</span>
+  </button>
+</a>
+
             <button className="flex h-10 min-w-[84px] items-center justify-center overflow-hidden rounded-lg bg-primary/20 dark:bg-primary/30 px-4 text-sm font-bold text-primary transition-opacity hover:opacity-90">
               <span className="truncate">Login</span>
             </button>
