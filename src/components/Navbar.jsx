@@ -51,7 +51,7 @@ export default function Navbar({ language, setLanguage }) {
           </nav>
           <div className="flex items-center gap-2">
            <a 
-  href="https://www.mediafire.com/file/yehwktydmjpk7ll/EngiTrack-v1.1-Final.apk/file" 
+  href="https://appdistribution.firebase.google.com/testerapps/1:526610844773:android:63ec1686919f812c7bca8c/releases/009mgnus3uico?utm_source=firebase-console" 
   target="_blank" 
   rel="noopener noreferrer"
 >
